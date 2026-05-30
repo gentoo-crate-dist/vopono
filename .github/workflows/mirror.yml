@@ -16,6 +16,7 @@
           with:
             ssh-private-key: ${{ secrets.ssh_key }}
             run-cargo-update: true
+            directories: . vopono-gui vopono_core
             
             
             
